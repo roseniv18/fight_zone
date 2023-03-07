@@ -1,4 +1,4 @@
-# [Live website](https://figthzone.netlify.app/)
+# [Live website](https://fightzone.netlify.app/)
 ## FightZone
 This is a dummy of an ecommerce website for selling fighting equipment. I have used the following technologies for this project:
 - React
