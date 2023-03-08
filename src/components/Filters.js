@@ -241,9 +241,16 @@ const Wrapper = styled.section`
   }
   .clear-btn {
     background: var(--clr-red-dark);
+    font-size: .9rem;
     color: var(--clr-white);
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem .75rem;
     border-radius: var(--radius);
+    transition: var(--transition);
+  }
+
+  .clear-btn:hover {
+    transform: scale(102%);
+    transition: var(--transition);
   }
   @media (min-width: 768px) {
     .content {
