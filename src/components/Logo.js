@@ -1,9 +1,11 @@
 import styled from "styled-components"
 
 const Logo = () => {
-    return <Wrapper>
-        <span>Fight</span>Zone
-    </Wrapper>
+    return (
+        <Wrapper>
+            <span>Fight</span>Zone
+        </Wrapper>
+    )
 }
 
 const Wrapper = styled.h3`
